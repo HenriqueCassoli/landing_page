@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width:100%;
+    
+}
+html,body{
+height: 100%;
+}
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+.center-2{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+background-color:#005a9c ;
+width: 100%;
+height: 90px;
+min-width: 1280px;
+}
+.header img{
+    width: 90px;
+    margin-left: 50px;
+}
+.conteiner-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url(/landing_page_responsive/Images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteiner-banner > .center{
+    height: 100%;
+}
+
+.form{
+    width: 400px;
+    height: 100%;
+    background-color: #005a9c ;
+    float: right;
+    margin-right: 10px;
+    border: 8px solid #EF3E42;
+    padding: 10px;
+}
+
+.form h2{
+    font-size: 30px;
+    color: #1d1d1d;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.input-conteiner{
+    margin-top: 20px;
+}
+.input-conteiner span,.form p{
+    display: inline-block;
+    width: 100%;
+    font-family:'Open Sans',sans-serif;
+    font-size: 17px;
+}
+.form p{
+    margin: 20px 0;
+}
+.input-conteiner input[type=text]{
+    width: 344px;
+    height: 55px;
+    border: 2px solid black;
+    margin-top: 5px;
+}    
+
+.input-botao{
+text-align: center;
+}
+
+
+.input-conteiner input[type=submit]{
+    width: 200px;
+    height: 40px;
+    border: none;
+   background-color: red;
+   font-size: 20px;
+   font-family: 'Anton', sans-serif;
+   display:inline-block;
+   cursor: pointer;
+}    
+
+.conteiner-list{
+    background-color:rgba(191,192,191,0.7);
+    float: left;
+    width: 50%;
+    height: 270px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.conteiner-2{
+    margin: 0 auto;
+    font-family: 'Anton', sans-serif;
+    background-color:#005a9c ;
+}
+
+.conteiner-2  h2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 40px 0;
+}
+.conteiner-2  p{
+   text-align: justify;
+}
+.arrow{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section{
+    font-family: 'Anton', sans-serif;
+    padding: 90px 0;
+    background-color: #005a9c;
+}
+.conteiner-section{
+    text-align: justify;
+}
+.conteiner-section h3{
+    text-align:center ;
+}
+.conteiner-single{
+ width: 30%;
+ display:inline-block;
+ margin-right: 10px;
+ margin-left: 20px;
+}
+.conteiner-double{
+    width: 30%;
+    display:inline-block;
+    margin-right: 10px;
+}
+.conteiner-triple{
+    width: 30%;
+    display:inline-block;
+    margin-right: 10px;
+}
+footer{
+    background-color: #EF3E42;
+}
